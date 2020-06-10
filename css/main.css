@@ -1,0 +1,72 @@
+/*
+  Cover
+*/
+
+.cover {
+  background: #676767;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cover .container-fluid {
+  position: absolute;
+  background: linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+}
+
+.cover-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*
+  Navbar
+*/
+
+.navbar-fat {
+  position: absolute;
+  background: -webkit-linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+  background: linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+  padding: 40px 60px 40px 20px;
+  color: white;
+}
+
+.navbar-fat .navbar-nav .nav-item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar-fat .navbar-nav .nav-item a:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar-fat .navbar-nav .nav-item a:hover:after {
+    width: 100%;
+    background: white;
+}
+
+.navbar-fat .navbar-nav .nav-item a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-default {
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0!important;
+  border: 0;
+}
