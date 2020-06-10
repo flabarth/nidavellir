@@ -11,6 +11,14 @@ body {
 }
 
 /*
+  Logos
+*/
+
+#nidavellir-logo {
+  pointer-events: none;
+}
+
+/*
   Cover
 */
 
