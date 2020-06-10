@@ -19,6 +19,14 @@ body {
 }
 
 /*
+  Divs
+*/
+
+#particles-js {
+  height: 100vh;
+}
+
+/*
   Cover
 */
 
