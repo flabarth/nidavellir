@@ -19,13 +19,21 @@ body {
 }
 
 /*
+  Texto
+*/
+
+.jumbo-text {
+  color: white;
+}
+
+/*
   Divs
 */
 
 #particles-js {
   position: absolute;
   height: 100vh;
-  z-index: 1;
+  z-index: 0;
   width: 100%;
 }
 
