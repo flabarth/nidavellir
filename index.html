@@ -77,7 +77,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-      $('body').scrollspy({ target: '#main-navbar' });
+      $('body').scrollspy({ target: '#main-navbar', offset: 100 });
       $(function () {
         $(document).scroll(function () {
           let nav = $('.navbar');
