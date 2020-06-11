@@ -24,6 +24,7 @@ body {
 
 .jumbo-text {
   color: white;
+  z-index: 50;
 }
 
 /*
@@ -33,7 +34,6 @@ body {
 #particles-js {
   position: absolute;
   height: 100vh;
-  z-index: 0;
   width: 100%;
 }
 
