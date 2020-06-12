@@ -27,6 +27,11 @@ body {
   color: white;
 }
 
+.card-title {
+  font-family: PARALLELS;
+  font-weight: bold;
+}
+
 /*
   Divs
 */
@@ -124,7 +129,7 @@ body {
 
 .navbar-fat .navbar-nav .nav-item #nidavellir-logo {
   font-family: PARALLELS;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bold;
 }
 
