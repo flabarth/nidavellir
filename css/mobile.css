@@ -10,16 +10,22 @@
   }
 
   .collapse {
-    display: block !important;
+    display: flex !important;
   }
 
   .collapse .navbar-items {
     display: none;
   }
 
+  #navbar-nav-logo {
+    margin-left: 0;
+    width: 100%;
+  }
+
   .nav-logo {
     display: flex;
     justify-content: center;
+    padding: 0 !important;
   }
 
   .navbar-fat .navbar-nav .nav-item #nidavellir-logo {

@@ -108,6 +108,9 @@ body {
   border: 0;
 }
 
+#navbar-nav-logo {
+  margin-left: auto;
+}
 
 /* Navbar-fat */
 
