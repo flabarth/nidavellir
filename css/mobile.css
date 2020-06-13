@@ -29,8 +29,20 @@
   }
 
   /*
+    Cover
+  */
+
+  .cover-secondary {
+    height: calc(100vh - 55px) !important;
+  }
+
+  /*
     Logos
   */
+
+  .cover-secondary .jumbo-text {
+    font-size: 1.5rem;
+  }
 
   .jumbo-text {
     padding: 10px;
