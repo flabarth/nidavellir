@@ -2,12 +2,15 @@
   font-family: PARALLELS;
   src: url('../fonts/PARALLELS.otf');
 }
-
+@font-face {
+  font-family: Bahnschrift;
+  src: url('../fonts/bahnschrift.ttf');
+}
 /*
   Body
 */
 body {
-  font-family: 'Bahnschrift';
+  font-family: Bahnschrift;
   position: relative;
 }
 
