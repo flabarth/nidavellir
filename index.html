@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
   </head>
   <body class="h-100p" data-spy="scroll" data-target="#main-navbar">
     <header>
       <nav class="navbar navbar-expand-lg navbar-default navbar-fat" id="main-navbar">
         <div class="collapse navbar-collapse">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav navbar-items">
             <li class="nav-item">
               <a class="nav-link" href="#o-que-fazemos">O que fazemos</a>
             </li>
@@ -28,7 +29,7 @@
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item nav-logo">
               <span id="nidavellir-logo">Nidavellir</span>
             </li>
           </ul>
@@ -36,14 +37,14 @@
       </nav>
     </header>
 
-    <div class="cover h-100vh">
-      <div class="cover-image" id="main-cover" style="background-image: url('img/ivana-cajina-asuyh-_ZX54-unsplash.jpg')"></div>
+    <div class="cover">
+      <div class="cover-image" id="main-cover" style="background-image: url('img/aldebaran-s-g-Gc-k-NPkA-unsplash.jpg')"></div>
       <div id="particles-js"></div>
       <div class="container-fluid h-100vh d-flex align-items-center">
         <div class="row">
           <div class="col-6 d-flex align-items-center">
             <h1 class="jumbo-text p-5">
-              Transforme seus projetos em imagens poderosas.
+              Aqui transformamos seus projetos em imagens formidáveis e poderosas.
             </h1>
           </div>
           <div class="col-6">
@@ -51,12 +52,11 @@
               <img src="img/01X-small.png" class="p-5" style="max-width: 80%; max-height: 80%;" />
             </div>
           </div>
-          <button class="btn btn-primary" onclick="changebg()">Muda bg</button>
         </div>
       </div>
     </div>
 
-    <div class="cover h-100vh" id="o-que-fazemos">
+    <div class="cover" id="o-que-fazemos">
       <div class="container-fluid h-100p d-flex align-items-center">
         <div class="row">
           <div class="col-6">
@@ -67,8 +67,9 @@
           <div class="col-6 d-flex align-items-center">
             <div data-aos="fade-up">
               <h1 class="jumbo-text p-5">
-                É simples: renderizamos seus projetos com tecnologia de ponta,
-                produzindo resultados que irão tirar o fôlego dos seus clientes.
+                É simples: renderizamos seus modelos 3D com tecnologia de ponta,
+                aplicando pós-produção dedicada em cada imagem ou animação, e
+                produzindo resultados de tirar o fôlego.
               </h1>
             </div>
           </div>
@@ -76,7 +77,7 @@
       </div>
     </div>
 
-    <div class="cover h-100vh" id="sobre-nos">
+    <div class="cover" id="sobre-nos">
       <div class="cover-image" style="background-image: url('img/sandro-katalina-k1bO_VTiZSs-unsplash.jpg')"></div>
       <div id="particles-js2"></div>
       <div class="container-fluid h-100p d-flex align-items-center">
@@ -88,7 +89,12 @@
                 <div class="card-body">
                   <h5 class="card-title">Ruan N. Reinher</h5>
                   <p class="card-text">
-                    Arquiteto foda.
+                    Acadêmico de arquitetura e urbanismo, fascinado por
+                    tecnologia e games. Desde pequeno, acompanha a evolução dos
+                    gráficos e modelos 3D complexos. Se apaixonou por
+                    fotorrealismo desde que entrou no ramo e a partir daí,
+                    busca sempre se aprimorar em todos os softwares disponíveis
+                    no mercado para trazer o melhor em suas imagens e animações.
                   </p>
                 </div>
               </div>
@@ -114,7 +120,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       let bg = 0;
-      function changebg() {
+      /*function changebg() {
         var bgUrl = '';
         bg++;
         if(bg > 5) {
@@ -143,6 +149,7 @@
         $('#main-cover').prop('style', 'background-image: url("' + bgUrl + '");');
         console.log('url("' + bgUrl + '");');
       }
+      */
       AOS.init();
       $('body').scrollspy({ target: '#main-navbar', offset: 100 });
       $(function () {

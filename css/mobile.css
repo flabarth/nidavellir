@@ -1,0 +1,31 @@
+@media (max-width: 990px) {
+
+  /*
+    Navbar
+  */
+
+  .navbar-fat {
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .collapse {
+    display: block !important;
+  }
+
+  .collapse .navbar-items {
+    display: none;
+  }
+
+  .nav-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-fat .navbar-nav .nav-item #nidavellir-logo {
+    font-family: PARALLELS;
+    font-size: 42px;
+    font-weight: bold;
+  }
+}
