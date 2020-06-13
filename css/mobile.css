@@ -27,4 +27,23 @@
     font-size: 42px;
     font-weight: bold;
   }
+
+  /*
+    Logos
+  */
+
+  .jumbo-text {
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /*
+    disponíveis
+  */
+
+  #col-logo {
+    display: none;
+  }
+
 }

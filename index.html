@@ -42,12 +42,12 @@
       <div id="particles-js"></div>
       <div class="container-fluid h-100vh d-flex align-items-center">
         <div class="row">
-          <div class="col-6 d-flex align-items-center">
-            <h1 class="jumbo-text p-5">
+          <div class="col d-flex align-items-center">
+            <h1 class="jumbo-text">
               Aqui transformamos seus projetos em imagens formidáveis e poderosas.
             </h1>
           </div>
-          <div class="col-6">
+          <div class="col" id="col-logo">
             <div data-aos="fade-left" class="d-flex justify-content-center">
               <img src="img/01X-small.png" class="p-5" style="max-width: 80%; max-height: 80%;" />
             </div>
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="cover" id="o-que-fazemos">
+    <div class="cover cover-secondary" id="o-que-fazemos">
       <div class="container-fluid h-100p d-flex align-items-center">
         <div class="row">
           <div class="col-6">
@@ -66,7 +66,7 @@
           </div>
           <div class="col-6 d-flex align-items-center">
             <div data-aos="fade-up">
-              <h1 class="jumbo-text p-5">
+              <h1 class="jumbo-text">
                 É simples: renderizamos seus modelos 3D com tecnologia de ponta,
                 aplicando pós-produção dedicada em cada imagem ou animação, e
                 produzindo resultados de tirar o fôlego.
@@ -77,7 +77,7 @@
       </div>
     </div>
 
-    <div class="cover" id="sobre-nos">
+    <div class="cover cover-secondary" id="sobre-nos">
       <div class="cover-image" style="background-image: url('img/sandro-katalina-k1bO_VTiZSs-unsplash.jpg')"></div>
       <!--<div id="particles-js2"></div>-->
       <div class="container-fluid h-100p d-flex align-items-center">
@@ -103,7 +103,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Flavo H. Barth</h5>
                   <p class="card-text">
-                    Programador, web designer, amante de games e tecnologias.
+                    Programador, web designer, amante de games e novas
+                    tecnologias.
                   </p>
                 </div>
               </div>
@@ -163,6 +164,12 @@
             nav.addClass('navbar-fat');
           }
         });
+      });
+      $('.nav-link').on('click', function(e) {
+        event.preventDefault();
+         var section = $(this).attr('href');
+         var top = $(section).offset().top - 57;
+         $('html').scrollTop(top);
       });
       particlesJS.load('particles-js', 'js/particles-js/particlesjs-config.json');
     </script>
