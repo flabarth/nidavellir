@@ -48,6 +48,7 @@ body {
 
 .card {
   transition: 0.4s;
+  height: 100%;
 }
 
 .card:hover {
