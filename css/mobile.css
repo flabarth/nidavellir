@@ -40,7 +40,7 @@
   */
 
   .cover-secondary {
-    height: calc(100vh - 55px) !important;
+    min-height: calc(100vh - 55px) !important;
   }
 
   /*
@@ -63,6 +63,19 @@
 
   #col-logo {
     display: none;
+  }
+
+  .card-img-top {
+
+  }
+
+  /*
+    Footer
+  */
+
+  #footer-info {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
 }

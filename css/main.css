@@ -22,6 +22,13 @@ body {
   pointer-events: none;
 }
 
+#nidavellir-logo-footer {
+  pointer-events: none;
+  font-size: 32px;
+  font-family: PARALLELS;
+  font-weight: bold;
+}
+
 /*
   Texto
 */
@@ -49,6 +56,7 @@ body {
 .card {
   transition: 0.4s;
   height: 100%;
+  width: 20rem;
 }
 
 .card:hover {
@@ -206,8 +214,8 @@ body {
   background-color: #676767;
   color: white;
   padding-bottom: 40px;
-  padding-top: 40px;
-  height: 40vh;
+  padding-top: 20px;
+  height: 100%;
 }
 
 .footer a:hover {
@@ -241,4 +249,9 @@ body {
   font-family: PARALLELS;
   font-size: 26px;
   font-weight: bold;
+}
+
+#footer-info {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
